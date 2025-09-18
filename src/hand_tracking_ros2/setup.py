@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+              'hand_tracking_node = hand_tracking_ros2.hand_tracking_node:main'
         ],
     },
 )
